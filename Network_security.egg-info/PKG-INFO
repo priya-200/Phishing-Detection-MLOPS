@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: Network-security
+Version: 0.0.1
+Author: Priyadharshini Jayakumar
+Author-email: priycs105@rmkcet.ac.in
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
