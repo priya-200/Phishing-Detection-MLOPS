@@ -6,7 +6,9 @@ Author-email: priycs105@rmkcet.ac.in
 Requires-Dist: python-dotenv
 Requires-Dist: pandas
 Requires-Dist: numpy
+Requires-Dist: pymongo[srv]==3.6
 Requires-Dist: pymongo
+Requires-Dist: scikit-learn
 Requires-Dist: certifi
 Dynamic: author
 Dynamic: author-email
