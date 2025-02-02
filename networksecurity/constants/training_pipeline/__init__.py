@@ -37,3 +37,18 @@ DATA_VALIDATION_VALID_DIR: str = "Validated"
 DATA_VALIDATION_INVALID_DIR: str = "Invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "Drift Report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "Report.yaml"
+
+"""
+Data Transformation related constants starts with DATA_TRANSFORMATION VAR NAME
+"""
+
+DATA_TRANSFORMATION_DIR_NAME: str = "Data Transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+
+# KNN imputer to replace the missing value.
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
+    "missing_values":np.nan,
+    "n_neighbors": 3,
+    "weights" : "uniform"
+}
