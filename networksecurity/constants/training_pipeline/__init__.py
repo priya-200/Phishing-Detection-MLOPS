@@ -15,6 +15,8 @@ FILE_NAME: str = "NetworkData.csv"
 TRAIN_FILE_NAME:str = "train.csv"
 TEST_FILE_NAME:str = "test.csv"
 
+SCHEMA_FILE_PATH = os.path.join("Data Schema","Schema.yaml")
+
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
@@ -25,3 +27,13 @@ DATA_INGESTION_DIR_NAME:str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.2
+
+"""
+Data validation related constants starting with DATA_VALIDATION var name.
+"""
+
+DATA_VALIDATION_DIR_NAME: str = "Data Validation"
+DATA_VALIDATION_VALID_DIR: str = "Validated"
+DATA_VALIDATION_INVALID_DIR: str = "Invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR: str = "Drift Report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "Report.yaml"

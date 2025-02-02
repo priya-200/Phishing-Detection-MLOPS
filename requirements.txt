@@ -5,4 +5,6 @@ pymongo
 pymongo
 scikit-learn
 certifi
+dill
+PyYAML
 -e .
