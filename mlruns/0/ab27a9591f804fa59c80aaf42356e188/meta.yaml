@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/Mlops%20project/mlruns/0/ab27a9591f804fa59c80aaf42356e188/artifacts
+end_time: 1738595758858
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab27a9591f804fa59c80aaf42356e188
+run_name: nebulous-kit-424
+run_uuid: ab27a9591f804fa59c80aaf42356e188
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738595754911
+status: 3
+tags: []
+user_id: SJK
