@@ -45,6 +45,7 @@ Data Transformation related constants starts with DATA_TRANSFORMATION VAR NAME
 DATA_TRANSFORMATION_DIR_NAME: str = "Data Transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessor.pkl"
 
 # KNN imputer to replace the missing value.
 DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
