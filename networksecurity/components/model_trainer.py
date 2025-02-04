@@ -24,6 +24,9 @@ from sklearn.ensemble import(
     RandomForestClassifier
 )
 
+import dagshub
+dagshub.init(repo_owner='priya-200', repo_name='Phishing-Detection-MLOPS', mlflow=True)
+
 class ModelTrainer:
     def __init__(self,model_trainer_config: ModelTrainerConfig,data_transformation_artifact : DataTransformationArtifact):
         try:
@@ -105,6 +108,8 @@ class ModelTrainer:
         ]
 
         best_model = models[best_model_name]
+
+        utils.save_object(file_path = "final_model\\model.pkl",obj=best_model)
 
         y_train_pred = best_model.predict(X_train)
 

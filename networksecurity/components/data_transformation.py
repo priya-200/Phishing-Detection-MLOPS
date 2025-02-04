@@ -86,6 +86,7 @@ class DataTransformation:
         utils.save_numpy_array_data(self.data_transformation_config.transformed_train_file_path,array=train_array)
         utils.save_numpy_array_data(self.data_transformation_config.transformed_test_file_path,array=test_array)
         utils.save_object(self.data_transformation_config.transformed_object_file_path,preprocessor_object)
+        utils.save_object(file_path = "final_model\\preprocessor.pkl",obj = preprocessor_object)
 
         # Prepare aritifacts
         data_transformation_artifact = DataTransformationArtifact(
@@ -95,8 +96,3 @@ class DataTransformation:
         )
 
         return data_transformation_artifact
-
-        try:
-            logging.info("Starting the data transformationm")
-        except Exception as e:
-            raise NetworkSecurityException(e,sys)
